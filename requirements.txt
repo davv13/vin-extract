@@ -1,0 +1,28 @@
+# Core API
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+python-multipart>=0.0.12
+pydantic>=2.9.0
+pydantic-settings>=2.6.0
+
+# Image processing
+opencv-python-headless>=4.10.0
+numpy>=1.26.0
+
+# ============================================================
+# Recommended OCR: PaddleOCR PP-OCRv5 (best local VIN accuracy)
+# Install paddlepaddle FIRST for YOUR platform from:
+#   https://www.paddlepaddle.org.cn/install/quick
+# CPU example (Windows / Linux, Python 3.9–3.13):
+#   pip install paddlepaddle==3.3.0 -i https://www.paddlepaddle.org.cn/packages/stable/cpu/
+# Then:
+#   pip install -r requirements.txt
+# On Windows CPU, keep PADDLE_ENABLE_MKLDNN=false (see .env)
+# ============================================================
+paddlepaddle>=3.2.0
+paddleocr>=3.0.0
+
+# Optional fallback OCR (set OCR_BACKEND=easyocr)
+# easyocr>=1.7.2
+# torch>=2.2.0
+# torchvision>=0.17.0

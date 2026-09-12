@@ -1,0 +1,130 @@
+[
+  {
+    "file": "image_1.jpg",
+    "success": false,
+    "status": "low_confidence",
+    "vin": "WVGZZZ5NZJM13139",
+    "confidence_percent": 87.63,
+    "check_digit_valid": null,
+    "candidates": [
+      {
+        "vin": "WVGZZZ5NZJM13139",
+        "confidence": 0.8763,
+        "confidence_percent": 87.63,
+        "ocr_confidence": 0.9982,
+        "check_digit_valid": null
+      },
+      {
+        "vin": "VGZZZ5NZJM131391",
+        "confidence": 0.8307,
+        "confidence_percent": 83.07,
+        "ocr_confidence": 0.928,
+        "check_digit_valid": null
+      },
+      {
+        "vin": "WVGZZZ5NZJM131391",
+        "confidence": 0.8027,
+        "confidence_percent": 80.27,
+        "ocr_confidence": 0.928,
+        "check_digit_valid": false
+      }
+    ],
+    "message": "A possible VIN was found but confidence is 87.6% (required >= 90%). Please upload a clearer, higher-resolution photo of the VIN."
+  },
+  {
+    "file": "image_9.png",
+    "success": false,
+    "status": "low_confidence",
+    "vin": "VF72RHMZBJ417875",
+    "confidence_percent": 87.74,
+    "check_digit_valid": null,
+    "candidates": [
+      {
+        "vin": "VF72RHMZBJ417875",
+        "confidence": 0.8774,
+        "confidence_percent": 87.74,
+        "ocr_confidence": 0.9999,
+        "check_digit_valid": null
+      },
+      {
+        "vin": "F72RHMZBJ4178757",
+        "confidence": 0.8774,
+        "confidence_percent": 87.74,
+        "ocr_confidence": 0.9999,
+        "check_digit_valid": null
+      },
+      {
+        "vin": "VF72RHMZBJ4178757",
+        "confidence": 0.8494,
+        "confidence_percent": 84.94,
+        "ocr_confidence": 0.9999,
+        "check_digit_valid": false
+      }
+    ],
+    "message": "A possible VIN was found but confidence is 87.7% (required >= 90%). Please upload a clearer, higher-resolution photo of the VIN."
+  },
+  {
+    "file": "image_10.jpg",
+    "success": false,
+    "status": "low_confidence",
+    "vin": "JT2BF28K6W0115017",
+    "confidence_percent": 89.87,
+    "check_digit_valid": true,
+    "candidates": [
+      {
+        "vin": "JT2BF28K6W0115017",
+        "confidence": 0.8987,
+        "confidence_percent": 89.87,
+        "ocr_confidence": 0.8872,
+        "check_digit_valid": true
+      },
+      {
+        "vin": "AWRFR2665LBRR266",
+        "confidence": 0.8578,
+        "confidence_percent": 85.78,
+        "ocr_confidence": 0.9698,
+        "check_digit_valid": null
+      },
+      {
+        "vin": "WRFR2665LBRR2665",
+        "confidence": 0.8578,
+        "confidence_percent": 85.78,
+        "ocr_confidence": 0.9698,
+        "check_digit_valid": null
+      }
+    ],
+    "message": "A possible VIN was found but confidence is 89.9% (required >= 90%). Please upload a clearer, higher-resolution photo of the VIN."
+  },
+  {
+    "file": "image_11.jpeg",
+    "success": true,
+    "status": "accepted",
+    "vin": "JT2BG22K410545269",
+    "confidence_percent": 95.79,
+    "check_digit_valid": true,
+    "candidates": [
+      {
+        "vin": "JT2BG22K410545269",
+        "confidence": 0.9579,
+        "confidence_percent": 95.79,
+        "ocr_confidence": 0.9783,
+        "check_digit_valid": true
+      },
+      {
+        "vin": "G22K410545269PASS",
+        "confidence": 0.9579,
+        "confidence_percent": 95.79,
+        "ocr_confidence": 0.9783,
+        "check_digit_valid": true
+      },
+      {
+        "vin": "NAB0VEJT2BG22K410",
+        "confidence": 0.8751,
+        "confidence_percent": 87.51,
+        "ocr_confidence": 0.8884,
+        "check_digit_valid": true
+      }
+    ],
+    "message": "VIN extracted successfully."
+  }
+]

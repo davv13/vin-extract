@@ -1,0 +1,101 @@
+[
+  {
+    "file": "image_6.jpg",
+    "success": true,
+    "status": "accepted",
+    "vin": "4USCH7325WLE08333",
+    "confidence_percent": 94.63,
+    "check_digit_valid": true,
+    "message": "VIN extracted successfully."
+  },
+  {
+    "file": "image_7.jpg",
+    "success": true,
+    "status": "accepted",
+    "vin": "1G1YC3D45P5501254",
+    "confidence_percent": 97.17,
+    "check_digit_valid": true,
+    "message": "VIN extracted successfully."
+  },
+  {
+    "file": "image_2.webp",
+    "success": true,
+    "status": "accepted",
+    "vin": "5XYRHDLF8MG062267",
+    "confidence_percent": 100.0,
+    "check_digit_valid": true,
+    "message": "VIN extracted successfully."
+  },
+  {
+    "file": "image_10.jpg",
+    "success": false,
+    "status": "low_confidence",
+    "vin": "JT2BF28K6W0115017",
+    "confidence_percent": 89.87,
+    "check_digit_valid": true,
+    "message": "A possible VIN was found but confidence is 89.9% (required >= 90%). Please upload a clearer, higher-resolution photo of the VIN."
+  },
+  {
+    "file": "image_8.jpg",
+    "success": true,
+    "status": "accepted",
+    "vin": "4S4BTGPD5R3165681",
+    "confidence_percent": 100.0,
+    "check_digit_valid": true,
+    "message": "VIN extracted successfully."
+  },
+  {
+    "file": "image_3.jpg",
+    "success": true,
+    "status": "accepted",
+    "vin": "5XXG64J22PG192714",
+    "confidence_percent": 100.0,
+    "check_digit_valid": true,
+    "message": "VIN extracted successfully."
+  },
+  {
+    "file": "image_4.webp",
+    "success": true,
+    "status": "accepted",
+    "vin": "1C3AN75N75X045717",
+    "confidence_percent": 95.0,
+    "check_digit_valid": true,
+    "message": "VIN extracted successfully."
+  },
+  {
+    "file": "image_5.jpg",
+    "success": true,
+    "status": "accepted",
+    "vin": "1C3AN75NX5X042701",
+    "confidence_percent": 95.0,
+    "check_digit_valid": true,
+    "message": "VIN extracted successfully."
+  },
+  {
+    "file": "image_11.jpeg",
+    "success": false,
+    "status": "low_confidence",
+    "vin": "E5AAPAN6899698HAX",
+    "confidence_percent": 76.41,
+    "check_digit_valid": true,
+    "message": "A possible VIN was found but confidence is 76.4% (required >= 90%). Please upload a clearer, higher-resolution photo of the VIN."
+  },
+  {
+    "file": "image_9.png",
+    "success": false,
+    "status": "low_confidence",
+    "vin": "VF72RHMZBJ417875",
+    "confidence_percent": 87.74,
+    "check_digit_valid": null,
+    "message": "A possible VIN was found but confidence is 87.7% (required >= 90%). Please upload a clearer, higher-resolution photo of the VIN."
+  },
+  {
+    "file": "image_1.jpg",
+    "success": false,
+    "status": "low_confidence",
+    "vin": "WVGZZZ5NZJM13139",
+    "confidence_percent": 86.56,
+    "check_digit_valid": null,
+    "message": "A possible VIN was found but confidence is 86.6% (required >= 90%). Please upload a clearer, higher-resolution photo of the VIN."
+  }
+]
